@@ -1,0 +1,112 @@
+<!doctype html>
+<html class="no-js">
+  <head>
+    <meta charset="utf-8">
+    <title>Curtains</title>
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <link href="//www.google-analytics.com" rel="dns-prefetch">
+    <link href="//ajax.googleapis.com" rel="dns-prefetch">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet">
+
+
+    <script src="assets/components/modernizr/modernizr.js"></script>
+  </head>
+  <body>
+    <div class="preloader"></div>
+    <div class="curtain__bg curtain__bg--left"></div>
+    <div class="curtain__bg curtain__bg--right"></div>
+    <!-- The parent component -->
+    <div class="header">
+        <a href=".">
+            <img src="./assets/img/logo.png" width="250" height="59">
+        </a>
+        <span>Share<i></i></span>
+    </div>
+    <div class="social">
+        <span>Spread the word</span>
+        <a href="" class="social__icon social__icon--facebook"></a>
+        <a href="" class="social__icon social__icon--twitter"></a>
+        <a href="" class="social__icon social__icon--email"></a>
+    </div>
+    <div class="social__modal"></div>
+    <div class="curtain">
+        <div class="introPanel">
+            <div class="introPanel__header">
+                <h1 class="introPanel__header--intro">24 Beautiful Mornings</h1>
+                <h1 class="mobile__location-info__title"><span class="top"></span><br><span class="sub"></span></h1>
+            </div>
+            <hr class="introPanel__header__hr">
+            <hr class="mobile__location-info__hr">
+            <div class="mobile__content__author">
+                <span><i></i>Photo by: <a href="#" title=""></a></span>
+            </div>
+            <div class="introPanel__text">
+                <p class="introPanel__text--p">From Paris and New York cityscapes to the remote Solomon Islands in the Pacific Ocean, we are truly spoilt for choice with stunning locations to wake up to. No matter what time of day it is where you are, someone somewhere else will be waking up to a glorious sunrise.
+                <br><br>
+                Whether it’s over futuristic skyscrapers, across remote tropical beaches or climbing between snowy mountain peaks, open the curtains to where the sun is rising right now.</p>
+                <p class="mobile__location-info__copy"></p>
+            </div>
+            <div class="introPanel__button">
+                <span>Where would you like to <br>
+                open your curtains to next?</span>
+                <i><img src="./assets/img/arrows.png" width="70" height="17"></i>
+            </div>
+            <div class="mobile__location-info__social">
+                <span>Spread the word</span>
+                <a href="" class="mobile-social__icon social__icon--facebook"></a>
+                <a href="" class="mobile-social__icon social__icon--twitter"></a>
+                <a href="" class="mobile-social__icon social__icon--email"></a>
+            </div>
+        </div>
+
+        <!-- The component wrapper -->
+        <div class="curtain__wrapper">
+            <div class="pole"></div>
+            <!-- The left curtain panel -->
+            <div class="curtain__panel curtain__panel--left"><img src="assets/img/left-curtain.png"></div>
+
+                <!-- The prize behind the curtain panels -->
+                <div class="content__wrapper">
+                    <div class="shadow"></div>
+                    <div class="window-frame"></div>
+                    <div class="gradient"></div>
+                    <div class="local__time">LOCAL TIME
+                        <span></span>
+                    </div>
+                    <div class="content">
+                            <div class="modal"></div>
+                            <h1 class="content__title"><span class="content__title_top"></span><br><span class="content__title_sub"></span></h1>
+                            <hr>
+                            <div class="content__author">
+                                <span><i></i>Photo by: <a href="#" title="" target="_blank"></a></span>
+                            </div>
+
+                            <div class="content__location-btn">
+                                <span><i></i>Show location info</span>
+                            </div>
+                            <div class="content__location-info">
+                                <h1 class="content__location-info__title"></h1>
+                                <hr>
+                                <p class="content__location-info__copy"></p>
+                                <div class="close-btn"><i></i>Hide location info</div>
+                            </div>
+                    </div>
+                </div> <!-- curtain__prize -->
+
+            <!-- The right curtain panel -->
+            <div class="curtain__panel curtain__panel--right"><img src="assets/img/right-curtain.png"></div>
+        </div> <!-- curtain__wrapper -->
+    </div> <!-- curtain -->
+
+    <script src="assets/components/jquery/jquery.min.js"></script>
+    <script src="assets/components/moment.min.js"></script>
+    <script src="assets/components/gsap/TweenMax.min.js"></script>
+    <script src="assets/js/scripts.js"></script>
+
+  </body>
+</html>
